@@ -1,5 +1,4 @@
-#ifndef ORION_SINGLETON_H
-#define ORION_SINGLETON_H
+#pragma once
 
 
 // singleton
@@ -28,4 +27,4 @@ public:\
 	className& operator=(className&&) = delete;\
 	className& operator=(className const&) = delete;\
 
-#endif  // ORION_SINGLETON_H
+
